@@ -1,0 +1,18 @@
+@media (max-width: 780px) {
+  .left-grid {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .left-grid {
+    display: none;
+  }
+  .right-grid {
+    align-self: start;
+  }
+
+  .group {
+    border-style: none;
+  }
+}
